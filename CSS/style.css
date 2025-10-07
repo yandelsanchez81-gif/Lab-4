@@ -1,0 +1,222 @@
+/* === Estilo general del sitio === */
+
+/* Fondo general y fuente base */
+body {
+    background-color: #b3e5fc; /* Celeste suave */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezados (títulos) */
+h1, h2, h3 {
+    font-family: "Times New Roman", Times, serif;
+    color: #0d47a1; /* Azul oscuro */
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Párrafos y texto general */
+p {
+    color: #000;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 15px 30px;
+}
+
+/* Navegación */
+nav {
+    background-color: #0288d1; /* Azul medio */
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffeb3b; /* Amarillo claro al pasar el mouse */
+}
+
+/* Secciones */
+section {
+    background-color: #e1f5fe; /* Fondo ligeramente más claro */
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #0288d1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Diseño adaptable (responsive) */
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+        padding: 15px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+/* === Estilos generales === */
+body {
+    background-color: #b3e5fc; /* Fondo celeste */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Títulos */
+h1, h2 {
+    font-family: "Times New Roman", Times, serif;
+    color: #0d47a1; /* Azul */
+}
+
+/* Párrafos */
+p {
+    color: #000;
+    font-size: 18px;
+    margin: 15px auto;
+    width: 80%;
+    line-height: 1.6;
+}
+
+/* Contenedor de botones */
+.botones {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Estilo de los botones */
+.btn {
+    background-color: #0288d1; /* Azul medio */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Efectos de interacción */
+.btn:hover {
+    background-color: #0277bd; /* Azul más oscuro */
+    transform: scale(1.05);
+}
+
+.btn:active {
+    background-color: #01579b; /* Azul más intenso */
+}
+
+.btn:visited {
+    color: #e1f5fe; /* Celeste claro para visitados */
+}
+
+/* Diseño adaptable */
+@media (max-width: 600px) {
+    p {
+        width: 95%;
+    }
+
+    .btn {
+        width: 80%;
+    }
+}
+/* === Fondo general === */
+body {
+    background-color: #b3e5fc; /* Celeste */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* === Encabezado === */
+#encabezado {
+    background-color: #0288d1; /* Azul */
+}
+
+#encabezado h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: #ffffff;
+}
+
+/* === Párrafos === */
+p {
+    color: #000;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* === Botón personalizado === */
+.btn-personalizado {
+    background-color: #0288d1;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn-personalizado:hover {
+    background-color: #0277bd;
+    transform: scale(1.05);
+}
+
+.btn-personalizado:active {
+    background-color: #01579b;
+}
+
+/* === Imagen y video === */
+img, iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* === Pie de página === */
+#pie {
+    background-color: #0288d1;
+    font-size: 15px;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+    p {
+        text-align: justify;
+        margin: 0 15px;
+    }
+
+    .btn-personalizado {
+        width: 80%;
+        display: inline-block;
+    }
+}
+
