@@ -219,4 +219,14 @@ img, iframe {
         display: inline-block;
     }
 }
+/* === Footer pegado al fondo === */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+main {
+    flex: 1; /* Se expande para empujar el footer hacia abajo */
+}
 
